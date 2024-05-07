@@ -1,5 +1,9 @@
 import React from "react";
 
+export const metadata = {
+    title: "Profile Page",
+};
+
 export default function page() {
     return (
         <div>
