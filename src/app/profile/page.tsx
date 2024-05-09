@@ -1,7 +1,13 @@
-import React from "react";
+// Profile Page
 
-export const metadata = {
-    title: "Profile Page",
+import React from "react";
+import { Metadata } from "next";
+
+// export const metadata:Metadata = {
+//     title: "Profile Page",
+// };
+export const metadata: Metadata = {
+    title: { absolute: "Absolute Profile Page" },
 };
 
 export default function page() {
